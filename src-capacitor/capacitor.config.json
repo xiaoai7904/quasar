@@ -6,6 +6,11 @@
   "webDir": "www",
   "server": {
     "androidScheme": "https",
-    "url": "http://172.20.10.5:8080"
+    "url": "http://172.20.10.5:8081"
+  },
+  "plugins": {
+    "SmsPlugin": {
+      "appId": "org.capacitor.quasar.app"
+    }
   }
 }
